@@ -1,0 +1,49 @@
+{
+  "common": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "settings": "Settings",
+    "loading": "Loading..."
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Login",
+    "registerButton": "Register",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "pleaseLogin": "Please login to start trading"
+  },
+  "trading": {
+    "platform": "Crypto Trading Platform",
+    "orderBook": "Order Book",
+    "asks": "Asks",
+    "bids": "Bids",
+    "placeOrder": "Place Order",
+    "buy": "Buy",
+    "sell": "Sell",
+    "price": "Price (USD)",
+    "amount": "Amount (BTC)",
+    "total": "Total",
+    "balance": {
+      "usd": "USD Balance",
+      "btc": "BTC Balance"
+    }
+  },
+  "settings": {
+    "title": "Account Settings",
+    "profile": {
+      "title": "Profile Information",
+      "displayName": "Display Name",
+      "email": "Email"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "notifications": "Enable Trade Notifications",
+      "language": "Language"
+    },
+    "save": "Save Changes",
+    "saving": "Saving..."
+  }
+}
