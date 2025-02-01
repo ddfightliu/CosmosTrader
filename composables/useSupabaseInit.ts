@@ -1,5 +1,6 @@
 import { ref } from 'vue'
 import { createSupabaseClient } from '~/utils/supabase'
+import { useTradingStore } from '~/stores/trading'
 
 export const useSupabaseInit = () => {
   const initialized = ref(false)

@@ -1,4 +1,17 @@
 {
+  "nav": {
+    "platform": "Crypto Trading Platform",
+    "logout": "Logout"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login",
+    "loading": "Loading...",
+    "noAccount": "Don't have an account?",
+    "register": "Register"
+  },
   "common": {
     "login": "Login",
     "register": "Register",

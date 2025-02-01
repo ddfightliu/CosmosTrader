@@ -1,12 +1,12 @@
 <template>
   <div class="p-4">
     <div v-if="!user" class="text-center py-8">
-      <p class="text-xl mb-4">Please login to start trading</p>
+      <p class="text-xl mb-4">{{ $t('auth.pleaseLogin') }}</p>
       <NuxtLink
         to="/login"
         class="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded"
       >
-        Login
+      {{ $t('login.title') }}
       </NuxtLink>
     </div>
 

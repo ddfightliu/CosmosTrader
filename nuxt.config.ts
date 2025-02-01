@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   modules: [
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
@@ -14,7 +14,7 @@ export default defineNuxtConfig({
       { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' },
       { code: 'zh', iso: 'zh-CN', name: '中文', file: 'zh.json' }
     ],
-    lazy: true,
+    lazy: false,
     langDir: 'locales',
     defaultLocale: 'en',
     strategy: 'prefix_except_default',

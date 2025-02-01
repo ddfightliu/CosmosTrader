@@ -1,4 +1,17 @@
 {
+  "nav": {
+    "platform": "加密货币交易平台",
+    "logout": "退出"
+  },
+  "login": {
+    "title": "登录",
+    "email": "邮箱",
+    "password": "密码",
+    "submit": "登录",
+    "loading": "加载中...",
+    "noAccount": "还没有账号？",
+    "register": "注册"
+  },
   "common": {
     "login": "登录",
     "register": "注册",

@@ -1,11 +1,11 @@
 <template>
   <div class="min-h-[calc(100vh-4rem)] flex items-center justify-center p-4">
     <div class="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md">
-      <h1 class="text-2xl font-bold text-white mb-6">Login</h1>
+      <h1 class="text-2xl font-bold text-white mb-6">{{ $t('login.title') }}</h1>
       
       <form @submit.prevent="handleLogin" class="space-y-4">
         <div>
-          <label class="block text-sm font-medium text-gray-300">Email</label>
+          <label class="block text-sm font-medium text-gray-300">{{ $t('login.email') }}</label>
           <input
             v-model="email"
             type="email"
@@ -15,7 +15,7 @@
         </div>
 
         <div>
-          <label class="block text-sm font-medium text-gray-300">Password</label>
+          <label class="block text-sm font-medium text-gray-300">{{ $t('login.password') }}</label>
           <input
             v-model="password"
             type="password"
@@ -33,13 +33,13 @@
           :disabled="authStore.loading"
           class="w-full py-2 px-4 rounded bg-blue-600 hover:bg-blue-700 text-white disabled:opacity-50"
         >
-          {{ authStore.loading ? 'Loading...' : 'Login' }}
+          {{ authStore.loading ? $t('login.loading') : $t('login.submit') }}
         </button>
 
         <div class="text-center text-gray-400">
-          Don't have an account?
+          {{ $t('login.noAccount') }}
           <NuxtLink to="/register" class="text-blue-400 hover:text-blue-300">
-            Register
+            {{ $t('login.register') }}
           </NuxtLink>
         </div>
       </form>

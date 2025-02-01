@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-800 p-4 rounded-lg">
-    <h2 class="text-xl font-bold mb-4 text-white">Place Order</h2>
+    <h2 class="text-xl font-bold mb-4 text-white">{{ $t('trading.placeOrder') }}</h2>
     <div class="space-y-4">
       <!-- Trade Type Selection -->
       <div class="flex space-x-4">
@@ -11,7 +11,7 @@
             tradeType === 'buy' ? 'bg-green-600' : 'bg-gray-700'
           ]"
         >
-          Buy
+          {{ $t('trading.buy') }}
         </button>
         <button 
           @click="tradeType = 'sell'"
@@ -20,13 +20,13 @@
             tradeType === 'sell' ? 'bg-red-600' : 'bg-gray-700'
           ]"
         >
-          Sell
+          {{ $t('trading.sell') }}
         </button>
       </div>
 
       <!-- Price Input -->
       <div>
-        <label class="block text-sm font-medium text-gray-300">Price (USD)</label>
+        <label class="block text-sm font-medium text-gray-300">{{ $t('trading.price') }}</label>
         <input
           v-model.number="price"
           type="number"
