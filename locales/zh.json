@@ -1,6 +1,6 @@
 {
   "nav": {
-    "platform": "加密货币交易平台",
+    "platform": "克墨斯交易",
     "logout": "退出"
   },
   "login": {
@@ -29,7 +29,7 @@
     "pleaseLogin": "请登录后开始交易"
   },
   "trading": {
-    "platform": "加密货币交易平台",
+    "platform": "克墨斯交易",
     "orderBook": "订单簿",
     "asks": "卖单",
     "bids": "买单",

@@ -1,6 +1,6 @@
 {
   "nav": {
-    "platform": "Crypto Trading Platform",
+    "platform": "Cosmos Trader",
     "logout": "Logout"
   },
   "login": {
@@ -29,7 +29,7 @@
     "pleaseLogin": "Please login to start trading"
   },
   "trading": {
-    "platform": "Crypto Trading Platform",
+    "platform": "Cosmos Trader",
     "orderBook": "Order Book",
     "asks": "Asks",
     "bids": "Bids",

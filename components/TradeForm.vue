@@ -36,7 +36,7 @@
 
       <!-- Amount Input -->
       <div>
-        <label class="block text-sm font-medium text-gray-300">Amount (BTC)</label>
+        <label class="block text-sm font-medium text-gray-300">{{ $t('trading.amount') }}</label>
         <input
           v-model.number="amount"
           type="number"
@@ -66,7 +66,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useTradingStore } from '~/stores/trading'
@@ -75,8 +75,8 @@ const tradingStore = useTradingStore()
 const { balance } = storeToRefs(tradingStore)
 
 const tradeType = ref('buy')
-const price = ref(50000)
-const amount = ref(0.1)
+const price = ref(0)
+const amount = ref(0)
 
 function placeOrder() {
   if (tradeType.value === 'buy') {
