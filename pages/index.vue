@@ -8,7 +8,14 @@
       >
       {{ $t('login.title') }}
       </NuxtLink>
+      <div class="text-center text-gray-400">
+          {{ $t('login.noAccount') }}
+          <NuxtLink to="/register" class="text-blue-400 hover:text-blue-300">
+            {{ $t('login.register') }}
+          </NuxtLink>
+        </div>
     </div>
+
 
     <div v-else class="grid grid-cols-1 lg:grid-cols-3 gap-4">
       <!-- Chart Section -->

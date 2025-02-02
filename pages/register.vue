@@ -61,12 +61,8 @@ const password = ref<string>('')
 const handleRegister = async (): Promise<void> => {
   await authStore.register(email.value, password.value)
   if (!authStore.error) {
-    router.push('/login')
+    router.push('/confirm')
   }
 }
 
-// Define layout
-definePageMeta({
-  layout: 'default'
-})
 </script>
