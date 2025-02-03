@@ -28,6 +28,12 @@
     "hasAccount": "Already have an account?",
     "pleaseLogin": "Please login to start trading"
   },
+  "confirm": {
+    "title": "Verify Email sent",
+    "message": "an email has been sent to you , login in your email to verify your account",
+    "confirm": "Yes",
+    "cancel": "No"
+  },
   "trading": {
     "platform": "Cosmos Trader",
     "orderBook": "Order Book",

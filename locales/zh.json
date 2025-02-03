@@ -28,6 +28,12 @@
     "hasAccount": "已有账号？",
     "pleaseLogin": "请登录后开始交易"
   },
+  "confirm": {
+    "title": "注册邮箱验证",
+    "message": "一封邮件已发送至您的邮箱，请登录邮箱并验证您的账号",
+    "confirm": "是",
+    "cancel": "否"
+  },
   "trading": {
     "platform": "克墨斯交易",
     "orderBook": "订单簿",
